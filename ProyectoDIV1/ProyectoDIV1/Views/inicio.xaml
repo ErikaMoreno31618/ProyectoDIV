@@ -2,8 +2,8 @@
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	mc:Ignorable="d"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewmodels="clr-namespace:ProyectoDIV1.ViewModels" x:DataType="viewmodels:InicioViewModel"
+             mc:Ignorable="d"
 	Title="inicio">
 	<ContentPage.Content>
 		<ScrollView>
@@ -36,21 +36,26 @@
 				AbsoluteLayout.LayoutBounds="57.5,253,227,53"
 				Text="Regstrate y descubre las mejores oportunidades de empleo"
 			 />
-			<Label x:Name="usuario"
+			<Entry x:Name="usuario"
 				FontFamily="Lato"
 				FontAttributes="Bold"
 				FontSize="14"
+                   Placeholder="usuario"
+                   PlaceholderColor="Azure"
 				TextColor="#ffffff"
-				AbsoluteLayout.LayoutBounds="31,330,312,29"
-				Text="Usuario"
+				AbsoluteLayout.LayoutBounds="31,330,312,40"
+				Text="{Binding Apodo}"
 			 />
-			<Label x:Name="contrase_a"
+			<Entry x:Name="contrase_a"
 				FontFamily="Lato"
 				FontAttributes="Bold"
 				FontSize="14"
 				TextColor="#ffffff"
-				AbsoluteLayout.LayoutBounds="31.5,374,312,29"
-				Text="Contrasea"
+                Placeholder="clave"
+                IsPassword="True"
+                PlaceholderColor="Azure"
+				AbsoluteLayout.LayoutBounds="31.5,374,312,40"
+				Text="{Binding Password}"
 			 />
 			<Label x:Name="__olvidaste_tu_contrase_a_"
 				FontFamily="Lato"
@@ -83,14 +88,16 @@
 					CornerRadius="10"
 					Color="#ffffff"
 					AbsoluteLayout.LayoutBounds="0,0,158,37" />
-				<Label x:Name="ingresar"
+                
+                
+				<Button x:Name="ingresar"
 					FontFamily="Lato"
 					FontAttributes="Bold"
-					HorizontalTextAlignment="Center"
-					
+					HorizontalOptions="Center"
+					Command="{Binding LoginCommand}"
 					FontSize="14"
 					TextColor="#f6810d"
-					AbsoluteLayout.LayoutBounds="-2,8,156,29"
+					AbsoluteLayout.LayoutBounds="-2,8,200,40"
 					Text="INGRESAR"
 				 />
 			</AbsoluteLayout>

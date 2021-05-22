@@ -8,15 +8,15 @@ namespace ProyectoDIV1.Models
     public class Usuario: BaseViewModel
     {
         #region Attributes
-        private string email;
+        private string apodo;
         private string password;
         #endregion
 
         #region Properties
-        public string Email
+        public string Apodo
         {
-            get { return this.email; }
-            set { SetValue(ref this.email, value); }
+            get { return this.apodo; }
+            set { SetValue(ref this.apodo, value); }
         }
 
         public string Password
