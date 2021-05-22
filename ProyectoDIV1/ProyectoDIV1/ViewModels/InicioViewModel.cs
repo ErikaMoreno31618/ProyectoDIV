@@ -1,5 +1,4 @@
-﻿using GalaSoft.MvvmLight.Command;
-using ProyectoDIV1.Models;
+﻿using ProyectoDIV1.Models;
 using System.Windows.Input;
 using Xamarin.Forms;
 
@@ -8,16 +7,17 @@ namespace ProyectoDIV1.ViewModels
     public class InicioViewModel : Usuario
     {
         #region Commands
-        public ICommand LoginCommand
-        {
-            get
-            {
-                return new RelayCommand(Login);
-            }
-        }
+        public Command LoginCommand { get; }
 
+        #endregion
+
+
+        public InicioViewModel()
+        {
+            LoginCommand = new Command(OnLoginClicked);
+        }
         // alertas del LoginPage
-        private async void Login()
+        private async void OnLoginClicked(object obj)
         {
             if (string.IsNullOrEmpty(this.Email))
             {
@@ -51,6 +51,6 @@ namespace ProyectoDIV1.ViewModels
            // MainViewModel.GetInstance().HomeApp = new HomeAppViewModel();
             //await Application.Current.MainPage.Navigation.PushAsync(new AppTabbedPage());
         }
-        #endregion
+       
     }
 }
