@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoDIV1.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -9,8 +10,10 @@ namespace ProyectoDIV1
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            MainPage = new inicioPortada();
+            MainPage = new inicioDiseno();
+            MainPage = new inicioInnovacion();
+            MainPage = new inicio();
         }
 
         protected override void OnStart()
