@@ -10,10 +10,7 @@ namespace ProyectoDIV1
         public App()
         {
             InitializeComponent();
-            MainPage = new inicioPortada();
-            MainPage = new inicioDiseno();
-            MainPage = new inicioInnovacion();
-            MainPage = new inicio();
+            MainPage = new NavigationPage(new inicioPortada());
         }
 
         protected override void OnStart()

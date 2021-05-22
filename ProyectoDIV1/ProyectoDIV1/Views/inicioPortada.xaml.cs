@@ -17,6 +17,13 @@ namespace ProyectoDIV1.Views
         public inicioPortada()
         {
             InitializeComponent();
+            IrAinicio();
+        }
+
+        private async void IrAinicio()
+        {
+            await Task.Delay(2000);
+            await Application.Current.MainPage.Navigation.PushAsync(new inicio());
         }
     }
 }
