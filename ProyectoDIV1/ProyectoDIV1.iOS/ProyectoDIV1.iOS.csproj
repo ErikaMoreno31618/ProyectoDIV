@@ -80,12 +80,160 @@
     </ImageAsset>
     <BundleResource Include="Assets.xcassetsDiseno\inicio_1.png.imageset\Contents.json" />
     <BundleResource Include="Assets.xcassetsInnovacion\inicio_1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Vinculacion\inicio_1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\_home.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\_user.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\corazon_blanco.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\div2.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\trazado_1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\trazado_2.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\trazado_2_ek1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\trazado_3.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_Registro\trazado_4.png.imageset\Contents.json" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    <ImageAsset Include="Assets.xcassets\enmascarar_grupo_3.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\enmascarar_grupo_3.png.imageset\enmascarar_grupo_3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_13.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_13.png.imageset\l_nea_13.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_14.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_14.png.imageset\l_nea_14.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_15.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_15.png.imageset\l_nea_15.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_1.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_1.png.imageset	razado_1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2.png.imageset	razado_2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2_ek1.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2_ek1.png.imageset	razado_2_ek1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_4.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_4.png.imageset	razado_4.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_3.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_3.png.imageset	razado_3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_home.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_home.png.imageset\_home.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\corazon_blanco.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\corazon_blanco.png.imageset\corazon_blanco.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\user.png.imageset\user.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_17.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\l_nea_17.png.imageset\l_nea_17.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_home.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_home.png.imageset\_home.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\corazon_blanco.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\corazon_blanco.png.imageset\corazon_blanco.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_user.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\_user.png.imageset\_user.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_1.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_1.png.imageset	razado_1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2.png.imageset	razado_2.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2_ek1.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_2_ek1.png.imageset	razado_2_ek1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_4.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_4.png.imageset	razado_4.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_3.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets	razado_3.png.imageset	razado_3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\div3.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\div3.png.imageset\div3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\inicio_6.png.imageset\Contents.json">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\inicio_6.png.imageset\inicio_6.png">
+      <Visible>false</Visible>
+    </ImageAsset>
     <ImageAsset Include="Assets.xcassets\inicio_3.png.imageset\Contents.json">
       <Visible>false</Visible>
     </ImageAsset>
@@ -218,5 +366,35 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Assets.xcassetsInnovacion\inicio_1.png.imageset\inicio_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Vinculacion\inicio_1.png.imageset\inicio_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\_home.png.imageset\_home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\_user.png.imageset\_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\corazon_blanco.png.imageset\corazon_blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\div2.png.imageset\div2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\trazado_1.png.imageset\trazado_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\trazado_2.png.imageset\trazado_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\trazado_2_ek1.png.imageset\trazado_2_ek1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\trazado_3.png.imageset\trazado_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_Registro\trazado_4.png.imageset\trazado_4.png" />
   </ItemGroup>
 </Project>
