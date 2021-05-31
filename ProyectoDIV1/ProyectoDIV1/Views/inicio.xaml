@@ -13,14 +13,13 @@
                          Opacity="0.8" 
                          Padding="10,10,10,10" 
                          VerticalOptions="Center">
-         
                 <Grid
                         RowDefinitions="Auto, Auto, Auto, Auto, Auto"
                         RowSpacing="24"
                         VerticalOptions="CenterAndExpand">
-                    <Image x:Name="div3"
+                <Image x:Name="div3"
                            Grid.Row="0"
-				Source="div3.png"
+				Source="div3.png" WidthRequest="100" HeightRequest="100"
 				AbsoluteLayout.LayoutBounds="400,400,350,350" />
                     <Label x:Name="__te_damos_la_bienvenida_"
                            Grid.Row="1"
@@ -42,16 +41,16 @@
 				AbsoluteLayout.LayoutBounds="57.5,253,227,53"
 				Text="Regstrate y descubre las mejores oportunidades de empleo"
 			 />
-                    <Entry x:Name="usuario"
+                <Entry x:Name="usuario"
                             Grid.Row="3"
 				FontFamily="Lato"
 				FontAttributes="Bold"
 				FontSize="14"
-                   Placeholder="usuario"
+                   Placeholder="email"
                    PlaceholderColor="Azure"
 				TextColor="#ffffff"
 				AbsoluteLayout.LayoutBounds="31,330,312,40"
-				Text="{Binding Apodo}"
+				Text="{Binding Email}"
 			 />
                     <Entry x:Name="contrase_a"
                             Grid.Row="4"
@@ -65,25 +64,29 @@
 				AbsoluteLayout.LayoutBounds="31.5,374,312,40"
 				Text="{Binding Password}"
 			 />
-                    <Label x:Name="__olvidaste_tu_contrase_a_"
-				FontFamily="Lato"
-                            Grid.Row="5"
-                           
-				HorizontalTextAlignment="Right"
-				FontSize="12"
-				TextColor="#ffffff"
-				AbsoluteLayout.LayoutBounds="14,418,327,27"
-				Text="Olvidaste tu contrasea?"
-			 />
-                    <Label x:Name="si_aun_no_tienes_una_cuenta_registrate"
-				FontFamily="Lato"
-                           Grid.Row="6"
-				HorizontalTextAlignment="Center"
-				FontSize="12"
-				TextColor="#ffffff"
-				AbsoluteLayout.LayoutBounds="14.5,546,327,27"
-				Text="si aun no tienes una cuenta REGISTRATE"
-			 />
+
+                    <Label
+                        x:Name="Registro"
+                        HorizontalTextAlignment="Center"
+                             Grid.Row="6"
+                        >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="si aun no tienes una cuenta " 
+                                TextColor="White"
+                                 />
+                                <Span Text="REGISTRATE"
+								TextColor="Blue"
+								TextDecorations="Underline">
+                                    <Span.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding RegistroCommand}"
+                                          />
+                                    </Span.GestureRecognizers>
+                                </Span>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
                     <Button x:Name="ingresar"
                              Grid.Row="7"
 					FontFamily="Lato"
@@ -96,6 +99,7 @@
 					AbsoluteLayout.LayoutBounds="-2,8,200,40"
 					Text="INGRESAR"
 				 />
+                   
                 </Grid>
             </StackLayout>
         </ScrollView>

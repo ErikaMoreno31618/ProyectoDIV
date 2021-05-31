@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using ProyectoDIV1.ViewModels;
 
 namespace ProyectoDIV1.Views
 {
@@ -17,6 +18,8 @@ namespace ProyectoDIV1.Views
         public PerfilCandidato()
         {
             InitializeComponent();
+            BindingContext = new PersonViewModels();
+
         }
     }
 }
