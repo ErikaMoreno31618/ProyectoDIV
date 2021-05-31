@@ -15,6 +15,7 @@ namespace ProyectoDIV1.Views
         {
             InitializeComponent();
             //BindingContext = new PersonViewModels();
+<<<<<<< Updated upstream
 
         }
 
@@ -31,6 +32,8 @@ namespace ProyectoDIV1.Views
                Edad = Int32.Parse(edad.Text),
                Curriculum = curriculum.Text,
                Foto = foto.Text
+=======
+>>>>>>> Stashed changes
 
             };
         }

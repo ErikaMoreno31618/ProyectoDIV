@@ -90,6 +90,17 @@
     <BundleResource Include="Assets.xcassets_Registro\trazado_2_ek1.png.imageset\Contents.json" />
     <BundleResource Include="Assets.xcassets_Registro\trazado_3.png.imageset\Contents.json" />
     <BundleResource Include="Assets.xcassets_Registro\trazado_4.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\degradado.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\div2.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek2.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek3.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek4.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek1.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek2.png.imageset\Contents.json" />
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek3.png.imageset\Contents.json" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -405,5 +416,38 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Assets.xcassets_Registro\trazado_4.png.imageset\trazado_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\degradado.png.imageset\degradado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\div2.png.imageset\div2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1.png.imageset\enmascarar_grupo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek1.png.imageset\enmascarar_grupo_1_ek1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek2.png.imageset\enmascarar_grupo_1_ek2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek3.png.imageset\enmascarar_grupo_1_ek3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\enmascarar_grupo_1_ek4.png.imageset\enmascarar_grupo_1_ek4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4.png.imageset\rect_ngulo_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek1.png.imageset\rect_ngulo_4_ek1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek2.png.imageset\rect_ngulo_4_ek2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Assets.xcassets_menu\rect_ngulo_4_ek3.png.imageset\rect_ngulo_4_ek3.png" />
   </ItemGroup>
 </Project>
