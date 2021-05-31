@@ -21,6 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\serviciosPersonas.xaml.cs">
+      <DependentUpon>serviciosPersonas.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Views\Adobe\inicio.xaml">
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

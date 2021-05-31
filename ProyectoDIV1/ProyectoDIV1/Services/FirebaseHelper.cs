@@ -4,12 +4,19 @@ using ProyectoDIV1.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ProyectoDIV1.Services
 {
-    class FirebaseHelper
+
+    public interface IFirebaseAuthenticator
+    {
+
+        Task<string> CrearCuenta(string email, string password);
+
+    }
+
+    internal class FirebaseHelper
     {
         public async Task<List<Candidato>> GetCandidatos()
         {
@@ -51,14 +58,15 @@ namespace ProyectoDIV1.Services
 
         public async Task UpdatePerson(Candidato _candidatos)
         {
-            var toUpdatePerson = (await firebase
+            FirebaseObject<Candidato> toUpdatePerson = (await firebase
               .Child("Candidatos")
               .OnceAsync<Candidato>()).Where(a => a.Object.UsuarioId == _candidatos.UsuarioId).FirstOrDefault();
 
             await firebase
               .Child("Candidatos")
               .Child(toUpdatePerson.Key)
-              .PutAsync(new Candidato() { 
+              .PutAsync(new Candidato()
+              {
                   UsuarioId = _candidatos.UsuarioId,
                   Nombre = _candidatos.Nombre,
                   Apellido = _candidatos.Apellido,
@@ -73,7 +81,7 @@ namespace ProyectoDIV1.Services
 
         public async Task DeletePerson(Guid usuarioId)
         {
-            var toDeletePerson = (await firebase
+            FirebaseObject<Candidato> toDeletePerson = (await firebase
               .Child("Candidatos")
               .OnceAsync<Candidato>()).Where(a => a.Object.UsuarioId == usuarioId).FirstOrDefault();
 
@@ -81,11 +89,11 @@ namespace ProyectoDIV1.Services
 
         }
 
-        FirebaseClient firebase;
+        private readonly FirebaseClient firebase;
         public FirebaseHelper()
         {
             firebase = new FirebaseClient("https://proyectodiv-d53ed-default-rtdb.firebaseio.com/");
         }
     }
 }
-    
+

@@ -1,4 +1,4 @@
-<ContentPage x:Class="ProyectoDIV1.Views.servicios"
+<ContentPage x:Class="ProyectoDIV1.Views.serviciosPersonas"
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 	xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -108,7 +108,6 @@
 					FontFamily="Lato"
 					FontAttributes="Bold"
 					HorizontalTextAlignment="Center"
-					CharacterCasing="Upper"
 					FontSize="14"
 					TextColor="#f6810d"
 					AbsoluteLayout.LayoutBounds="-2,6,112,26"

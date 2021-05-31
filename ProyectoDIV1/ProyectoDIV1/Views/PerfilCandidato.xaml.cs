@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Xamarin.Forms;
+using ProyectoDIV1.Models;
 using ProyectoDIV1.ViewModels;
+using System;
+using Xamarin.Forms;
 
 namespace ProyectoDIV1.Views
 {
@@ -18,9 +14,25 @@ namespace ProyectoDIV1.Views
         public PerfilCandidato()
         {
             InitializeComponent();
-            BindingContext = new PersonViewModels();
+            //BindingContext = new PersonViewModels();
 
+        }
+
+        private async void Registrarme_Clicked(object sender, EventArgs e)
+        {
+            Candidato candidato = new Candidato()
+            {
+
+               Nombre = nombre.Text,
+               Apellido = apellido.Text,
+               Email = email.Text,
+               Ciudad = ciudad.Text,
+               Celular = celular.Text,
+               Edad = Int32.Parse(edad.Text),
+               Curriculum = curriculum.Text,
+               Foto = foto.Text
+
+            };
         }
     }
 }
-	

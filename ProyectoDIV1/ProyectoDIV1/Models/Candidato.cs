@@ -8,6 +8,7 @@ namespace ProyectoDIV1.Models
     {
         [PrimaryKey, AutoIncrement]
         public Guid UsuarioId { get; set; }
+
         private string nombre;
         private string apellido;
         private string email;
@@ -16,6 +17,9 @@ namespace ProyectoDIV1.Models
         private int edad;
         private string foto;
         private string curriculum;
+
+
+
         public string Nombre
         {
             get { return this.nombre; }
@@ -63,6 +67,8 @@ namespace ProyectoDIV1.Models
             get { return this.curriculum; }
             set { SetValue(ref this.curriculum, value); }
         }
+
+
 
     }
 }

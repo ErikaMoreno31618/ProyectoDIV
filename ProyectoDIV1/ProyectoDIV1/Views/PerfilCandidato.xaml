@@ -111,6 +111,17 @@
 					AbsoluteLayout.LayoutBounds="31,330,312,40"
 					Text="{Binding Curriculum}"
 				/>
+                    <Entry x:Name="contrasenia"
+					Grid.Row="8"
+					FontFamily="Lato"
+					FontAttributes="Bold"
+					FontSize="14"
+                    Placeholder="Contraseña"
+                    PlaceholderColor="Black"
+					TextColor="White"
+					AbsoluteLayout.LayoutBounds="31,330,312,40"
+					Text="{Binding Curriculum}"
+				/>
 
                     <AbsoluteLayout x:Name="botonEmpresa"
                                 Grid.Row="9"
@@ -120,12 +131,13 @@
 						FontFamily="Lato"
 						FontAttributes="Bold"
 						HorizontalOptions="Center"
-						Command="{Binding InsertCommand}"
+                        
 						FontSize="14"
 						TextColor="#f6810d"
 						BackgroundColor="White"
 						AbsoluteLayout.LayoutBounds="-2,8,200,40"
 						Text="REGISTRAR"
+                        Clicked="Registrarme_Clicked"
 				 />
 
                     </AbsoluteLayout>
